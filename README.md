@@ -5,8 +5,7 @@ Personal Homebrew tap for [Incodex](https://github.com/daftAI2026/incodex).
 ## Installation
 
 ```bash
-brew tap daftAI2026/tap
-brew install incodex
+brew install daftAI2026/tap/incodex
 ```
 
 This only installs the CLI (`incodex` / `inc`). Patching Codex still needs `incodex install`.
