@@ -1,17 +1,17 @@
 class Incodex < Formula
   desc "Incognito toggle for the Codex desktop app"
   homepage "https://github.com/daftAI2026/incodex"
-  version "1.5.9"
+  version "1.5.10"
   license "MIT"
 
   depends_on :macos
 
   if Hardware::CPU.arm?
     url "https://github.com/daftAI2026/incodex/releases/download/v#{version}/incodex-darwin-arm64"
-    sha256 "12c2ea009846b04629aa86f9478689c541ae02f0c0060720185c9c3255021683"
+    sha256 "7a37c8224c2f72da345ab9bfa8935e8d67ef1b324a840c8ef5b99dba58a4e1e7"
   elsif Hardware::CPU.intel?
     url "https://github.com/daftAI2026/incodex/releases/download/v#{version}/incodex-darwin-x64"
-    sha256 "895e7f68806df49ff8d5ec3c4528af483e4d6380ae7efb4677f076ca049b0ee7"
+    sha256 "a9ccdd35739137396497e487ed9e5aa2d6b82b72e387028383446f8f6ccd45d3"
   else
     odie "Incodex currently ships macOS Intel and Apple Silicon binaries only"
   end
