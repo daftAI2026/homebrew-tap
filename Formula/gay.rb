@@ -1,8 +1,8 @@
 class Gay < Formula
   desc "Zero-overhead cross-platform CLI trampoline for agy"
   homepage "https://github.com/daftAI2026/gay-cli"
-  url "https://github.com/daftAI2026/gay-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "795f26371e016232dceea7291d3f6f97af8bff00de592c6d598d14fdf46eb890"
+  url "https://github.com/daftAI2026/gay-cli/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "41e9817ab929021f3ec59d21c821d9178a3e9f378c8339e0101c9806793438df"
   license "MIT"
 
   def install
